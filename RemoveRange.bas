@@ -1,3 +1,5 @@
+'video for source code
+'https://www.youtube.com/watch?v=fPV4CFUN4xU&list=PLRU_t-SgTrYiymghXbBJynOMBAqgdkN4h&index=11
 
 Sub RemoveRange(sheetName As String, rangeName As String)
     Dim ws As Worksheet
