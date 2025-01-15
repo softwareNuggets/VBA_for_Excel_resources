@@ -17,6 +17,10 @@ Sub BoldAndUnderlinePatternInCell(row As Long, col As Long)
     
     Dim inputStr As String
     inputStr = inputCell.Value
+
+  ' First, remove any existing formatting
+    inputCell.Font.Bold = False
+    inputCell.Font.Underline = xlNone
     
     Dim patternStart As Long
     patternStart = InStr(1, inputStr, "~[")
